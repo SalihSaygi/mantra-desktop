@@ -1,0 +1,39 @@
+{
+  "name": "mantra-desktop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.25.0",
+    "@editorjs/header": "^2.6.2",
+    "@emotion/react": "^11.10.4",
+    "@mantine/core": "^4.2.10",
+    "@mantine/hooks": "^4.2.10",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/material": "^5.8.0",
+    "@tauri-apps/api": "^1.1.0",
+    "nanoid": "^3.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "react-joyride": "^2.5.3",
+    "react-router-dom": "^6.4.1",
+    "tabler-icons-react": "^1.52.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.0",
+    "@types/node": "^18.7.20",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.2"
+  }
+}
